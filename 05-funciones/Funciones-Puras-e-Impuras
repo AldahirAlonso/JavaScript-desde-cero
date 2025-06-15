@@ -1,0 +1,8 @@
+// Funciones Puras
+
+// Side Effects
+// 1. Modificar variables globales
+// 2. Modificar parámetros
+// 3. Solicitudes a HTTP
+// 4. Imprimir en consola
+// 5. Manipulacion del DOM
