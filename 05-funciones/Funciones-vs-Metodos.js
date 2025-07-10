@@ -44,5 +44,5 @@ const rocket = {
         console.log('🔥')
     }
 }
-
+ 
 rocket.launchMessage()
