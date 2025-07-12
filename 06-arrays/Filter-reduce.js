@@ -1,5 +1,9 @@
-// Methods that iterate over an array.
-// Methods that DO NOT modify the original array (immutability).
+// Metodos de Array: filter() y reduce()
+// Métodos que iteran sobre un arreglo.
+
+// filter() y reduce() son métodos que permiten trabajar con arreglos de manera funcional.
+// Estos métodos no modifican el arreglo original, lo que es una característica importante de la inmutabilidad.
+
 
 // filter()
 
