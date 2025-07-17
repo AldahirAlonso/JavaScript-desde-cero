@@ -1,5 +1,4 @@
 /* 
-
 estructura de datos
 
 key / value
@@ -9,7 +8,6 @@ objeto {
     propiedad: valor,
     propiedad: valor
 }
-
 */
 
 const persona = {
