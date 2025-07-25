@@ -47,10 +47,17 @@ function usuarioExistente(username, password) {
             usersDatabase[i].username === username && usersDatabase[i].password === password
         )
         {
-            console.log("Bienvenido!");
-            break;
-        } else {
-            console.log("Usuario o contrasena incorrectos.");
+            return true;
         }
+    }
+    return false;
+}
+
+function signIn(username, password) {
+    if (usuarioExistente(username, password)) {
+        alert(`Bienvenido ${username}`);
+        console.log(usersTimeline)
+    } else {
+        alert("Usuario o contrasena incorrectos. Intente de nuevo.");
     }
 }
