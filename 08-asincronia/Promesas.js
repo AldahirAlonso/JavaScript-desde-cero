@@ -24,3 +24,11 @@ const promise = new Promise((resolve, reject) => { // Crea una nueva promesa
     }
   }, 2000); // Espera 2 segundos 
 })
+
+promise 
+    .then((successMessage) => {
+        console.log(successMessage); // Maneja el resultado exitoso
+    })
+    .catch((errorMessage) => {
+        console.log(errorMessage); // Maneja el error
+    });
